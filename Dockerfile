@@ -24,7 +24,7 @@ RUN apt-get clean \
     && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/
 
 RUN mkdir microservice
-WORKDIR /microcervice
+WORKDIR /microservice
 
 # TODO (optional): Copy the builder files into /opt/app-root
 # COPY ./<builder_folder>/ /opt/app-root/
